@@ -1,0 +1,67 @@
+﻿<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="btnNuevo">
+    Nuevo
+</button>
+
+<!--Search-->
+<form id="frmBusqueda" method="post">
+<div class="input-group mb-3 mt-3">
+        <input type="text" class="form-control" placeholder="Ingrese descripcion producto" name="descripcion" aria-label="Recipient's username" aria-describedby="button-addon2">
+    <button class="btn btn-primary" type="button" id="button-addon2" onclick="BuscarDatos()">Buscar</button>
+</div>
+</form>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="lblTitulo">Agregar Producto</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               <!--Inicializado Formulario-->
+               <!--Este formulario se envia al controlador-->
+               <form id="frmProducto" method="post"> 
+                <div class="row"> 
+                    <div class="col-md-6"> 
+                    <label>IdProducto</label>
+                            <input type="text" name="iidProducto" readonly class="form-control" />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label>Descripcion Producto</label>
+                            <input type="text" name="description" class="form-control" />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label>Precio producto</label>
+                            <input type="number" name="precio" class="form-control" min="0" />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label>Stock producto</label>
+                            <input type="number" name="stock" class="form-control" min="0" />
+                    </div>
+                </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="divTabla">
+     
+
+
+
+</div>
+
+@section Scripts{ 
+    <script src="~/js/producto.js"></script>
+}
