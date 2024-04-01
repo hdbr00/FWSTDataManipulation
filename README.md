@@ -6,10 +6,10 @@
 ![WebSocketDiagram](https://github.com/hdbr00/Fleck-WebSocket-Data-Manipulation/assets/119827170/afddb1b1-c507-436a-b1ed-2d090171f579)
 
 
-## Functionality 1 (Real-Time Sending DMs):
+## Real-Time Sending DMs:
 https://github.com/hdbr00/Fleck-WebSocket-Data-Manipulation/assets/119827170/70a1fea8-9120-4326-a340-dfc39f19cd4a 
 
-## Real-Time Saving:
+## Real-Time Saving DB:
 ![DB](https://github.com/hdbr00/Fleck-WebSocket-Data-Manipulation/assets/119827170/c90c1c5a-94c6-43d7-89f7-cb5d2151916a)
 
 ## System Requirements
