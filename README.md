@@ -3,7 +3,7 @@
 ## MVC Diagram
 ![MVCDIAG](https://github.com/hdbr00/Fleck-WebSocket-Data-Manipulation/assets/119827170/4df4d0aa-7bfa-4aa9-b9ca-29433e5cd156)
 ## WebSocket Chat Diagram
-![WebSocketDiagram](https://github.com/hdbr00/Fleck-WebSocket-Data-Manipulation/assets/119827170/afddb1b1-c507-436a-b1ed-2d090171f579)
+![WebSocketDiagram](https://github.com/hdbr00/Fleck-WebSocket-Data-Manipulation/assets/119827170/afddb1b1-c507-436a-b1ed-2d090171f579) 
 
 
 ## Real-Time Sending DMs:
